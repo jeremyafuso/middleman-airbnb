@@ -1,0 +1,9 @@
+lisbon:
+  name: 'Le Wagon Lisbon'
+  place: 'Cais do sodré'
+paris:
+  name: 'Le Wagon Paris'
+  place: 'Eiffel tower'
+rio:
+  name: 'Le Wagon Rio'
+  place: 'Christ'

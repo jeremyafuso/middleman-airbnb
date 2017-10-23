@@ -4,12 +4,79 @@ title: Le Wagon - Middleman
 
 <div id="home">
   <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+    <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+      <div class="banner-content">
+        <h1>Welcome home</h1>
+        <p>Book unique homes and experience a city like a local.</p>
+
+        <form class="form-inline">
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" id="checkin" placeholder="Where?">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" id="checkout" placeholder="When?">
+          </div>
+          <div class="form-group">
+            <select class="form-control input-lg" id="how-many" name="count">
+              <option value="1-person">1 person</option>
+              <option value="2-person">2 persons</option>
+              <option value="3-person">3 persons</option>
+            </select>
+          </div>
+
+          <input type="submit" value="Search" class="btn btn-primary btn-lg">
+        </form>
+
+
+      </div>
+    </div>
   </div>
-</div>
+
+  <div class="container text-center">
+
+    <h3>Recent Flats</h3>
+    <div class="row">
+
+           <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+                <div class="card-category">Popular</div>
+                <div class="card-description">
+                  <h2>Le Wagon Shanghai</h2>
+                  <p>Very cool city, the best</p>
+                </div>
+                <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+                <a class="card-link" href="#" ></a>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+                <div class="card-category">Popular</div>
+                <div class="card-description">
+                  <h2>Le Wagon Shanghai</h2>
+                  <p>Very cool city, the best</p>
+                </div>
+                <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+                <a class="card-link" href="#" ></a>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/barcelona');">
+                <div class="card-category">Popular</div>
+                <div class="card-description">
+                  <h2>Le Wagon Shanghai</h2>
+                  <p>Very cool city, the best</p>
+                </div>
+                <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+                <a class="card-link" href="#" ></a>
+              </div>
+            </div>
+
+
+
+    </div>
+
+
+
+  </div>
